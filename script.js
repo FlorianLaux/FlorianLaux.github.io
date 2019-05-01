@@ -17,15 +17,12 @@ function openCity(evt, cityName) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
-
+}
   window.onload = openCity(null, "Home");
 
+function addListeners(){
 var coll = document.getElementsByClassName("collapsible");
 var j;
-
-alert("I actually do this!");
-
 for (j = 0; j < coll.length; j++) {
   coll[j].addEventListener("click", function() {
     this.classList.toggle("active");
@@ -37,3 +34,6 @@ for (j = 0; j < coll.length; j++) {
     }
   });
 }
+}
+
+window.onloadstart = addListeners;
