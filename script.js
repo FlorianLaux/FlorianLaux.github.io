@@ -24,6 +24,8 @@ function openCity(evt, cityName) {
 var coll = document.getElementsByClassName("collapsible");
 var j;
 
+alert("I actually do this!");
+
 for (j = 0; j < coll.length; j++) {
   coll[j].addEventListener("click", function() {
     this.classList.toggle("active");
