@@ -1,5 +1,6 @@
 body{
-    background-color: darkgrey;
+    background-color: navy;
+    color: wheat;
 }
 
 /* Style the tab */
@@ -40,6 +41,7 @@ body{
 
   .row {
     display: flex;
+    background-color: darkgrey;
   }
   
   .column {
