@@ -20,6 +20,9 @@ body{
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   /* Change background color of buttons on hover */
